@@ -16,8 +16,8 @@ public class test {
         Scanner num2 = new Scanner(System.in);
         int number2 = num2.nextInt();
 
-        System.out.println("Sum" + add(number1,number2));
-
+        System.out.println("Sum " + add(number1,number2));
+        
         scan.close();
         num1.close();
         num2.close();
